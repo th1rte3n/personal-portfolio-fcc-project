@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto Slab', serif; 
+}
+
+.fixed-bg {
+    background-image: url("https://static1.squarespace.com/static/58c04e18725e250b54aa1557/t/58dd9ce2f5e231507d616a42/1490918628831/portfolio-background.jpg?format=2500w");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 h1 {
+  padding-top:150px;
+  max-width: 100%;
+  text-align:center;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-weight: bold;
+	font-size: 500%;
+  color: silver;
+}
+.container1 p {
+  padding-bottom: 150px;
+  max-width: 100%;
+  text-align:center;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-weight: bold;
+	font-size: 200%;
+  color: silver;
+}
+
+embed {
+  height: 210px;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #292B2B;
+    color: silver;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:inline;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 20px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-free-code-camp {
+    border-radius: 10px; 
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #292B2B;
+}
+.fa-free-code-camp:hover {
+    background-color: #0D690E;
+}
+.fa-codepen {
+    border-radius: 10px;
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #292B2B;
+}
+.fa-codepen:hover {
+    background-color: #111;
+}
+.fa-github {
+    border-radius: 10px;
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #292B2B;
+}
+.fa-github:hover {
+    background-color: #000000;
+}
+
+.fa-linkedin-square {
+    border-radius: 10px;
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #292B2B;
+}
+.fa-linkedin-square:hover {
+    background-color: #0077B5;
+}
